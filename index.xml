@@ -10,82 +10,7 @@
 <atom:link href="https://utkuturk.github.io/digital-castle/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.55</generator>
-<lastBuildDate>Fri, 06 Dec 2024 05:00:00 GMT</lastBuildDate>
-<item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://utkuturk.github.io/digital-castle/posts/post-with-code/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is a post with executable code.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span></span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{malloc2024,
-  author = {Malloc, Harlow},
-  title = {Post {With} {Code}},
-  date = {2024-12-06},
-  url = {https://utkuturk.github.io/digital-castle/posts/post-with-code/},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-malloc2024" class="csl-entry quarto-appendix-citeas">
-Malloc, Harlow. 2024. <span>“Post With Code.”</span> December 6, 2024.
-<a href="https://utkuturk.github.io/digital-castle/posts/post-with-code/">https://utkuturk.github.io/digital-castle/posts/post-with-code/</a>.
-</div></div></section></div> ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://utkuturk.github.io/digital-castle/posts/post-with-code/</guid>
-  <pubDate>Fri, 06 Dec 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://utkuturk.github.io/digital-castle/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://utkuturk.github.io/digital-castle/posts/welcome/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://utkuturk.github.io/digital-castle/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{o'malley2024,
-  author = {O’Malley, Tristan},
-  title = {Welcome {To} {My} {Blog}},
-  date = {2024-12-03},
-  url = {https://utkuturk.github.io/digital-castle/posts/welcome/},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-o'malley2024" class="csl-entry quarto-appendix-citeas">
-O’Malley, Tristan. 2024. <span>“Welcome To My Blog.”</span> December 3,
-2024. <a href="https://utkuturk.github.io/digital-castle/posts/welcome/">https://utkuturk.github.io/digital-castle/posts/welcome/</a>.
-</div></div></section></div> ]]></description>
-  <category>news</category>
-  <guid>https://utkuturk.github.io/digital-castle/posts/welcome/</guid>
-  <pubDate>Tue, 03 Dec 2024 05:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Fri, 06 Dec 2024 17:30:05 GMT</lastBuildDate>
 <item>
   <title>My 2024 Solutions</title>
   <dc:creator>Utku Turk</dc:creator>
@@ -733,7 +658,7 @@ font-style: inherit;">$</span>safe)</span></code></pre></div>
 Turk, Utku. n.d. <span>“My 2024 Solutions.”</span> <a href="https://utkuturk.github.io/digital-castle/posts/advent/2024.html">https://utkuturk.github.io/digital-castle/posts/advent/2024.html</a>.
 </div></div></section></div> ]]></description>
   <guid>https://utkuturk.github.io/digital-castle/posts/advent/2024.html</guid>
-  <pubDate>Fri, 06 Dec 2024 17:26:34 GMT</pubDate>
+  <pubDate>Fri, 06 Dec 2024 17:30:05 GMT</pubDate>
 </item>
 <item>
   <title>Guidelines to Run Montreal Forced Aligner for a PCIbex Experiment</title>
@@ -5995,7 +5920,7 @@ Turk, Utku. n.d. <span>“Guidelines to Run Montreal Forced Aligner for a
 PCIbex Experiment.”</span> <a href="https://utkuturk.github.io/digital-castle/posts/mfa/">https://utkuturk.github.io/digital-castle/posts/mfa/</a>.
 </div></div></section></div> ]]></description>
   <guid>https://utkuturk.github.io/digital-castle/posts/mfa/</guid>
-  <pubDate>Fri, 06 Dec 2024 17:26:34 GMT</pubDate>
+  <pubDate>Fri, 06 Dec 2024 17:30:05 GMT</pubDate>
 </item>
 </channel>
 </rss>
