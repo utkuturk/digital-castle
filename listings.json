@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/advent/2024.html",
       "/posts/mfa/index.html",
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"

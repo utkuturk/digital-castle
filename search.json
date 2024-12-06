@@ -133,11 +133,18 @@
     "text": "Footnotes\n\nOn principle, I am against for loops in R, but it is better to use here instead of confusing you more.↩︎"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationBibTeX citation:@online{o'malley2024,\n  author = {O’Malley, Tristan},\n  title = {Welcome {To} {My} {Blog}},\n  date = {2024-12-03},\n  url = {https://utkuturk.github.io/digital-castle/posts/welcome/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” December 3,\n2024. https://utkuturk.github.io/digital-castle/posts/welcome/."
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\nCitationBibTeX citation:@online{malloc2024,\n  author = {Malloc, Harlow},\n  title = {Post {With} {Code}},\n  date = {2024-12-06},\n  url = {https://utkuturk.github.io/digital-castle/posts/post-with-code/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” December 6, 2024.\nhttps://utkuturk.github.io/digital-castle/posts/post-with-code/."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Digital Castle",
+    "section": "",
+    "text": "My 2024 Solutions\n\n\n\n\n\n\n\n\n\n\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\n\nGuidelines to Run Montreal Forced Aligner for a PCIbex Experiment\n\n\n\n\n\n\n\n\n\n\n\n42 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 6, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 3, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -147,17 +154,38 @@
     "text": "About this blog"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Digital Castle",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Guidelines to Run Montreal Forced Aligner for a PCIbex Experiment\n\n\n\n\n\n\n\n\n\n\n\n42 min\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 6, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 3, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationBibTeX citation:@online{o'malley2024,\n  author = {O’Malley, Tristan},\n  title = {Welcome {To} {My} {Blog}},\n  date = {2024-12-03},\n  url = {https://utkuturk.github.io/digital-castle/posts/welcome/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” December 3,\n2024. https://utkuturk.github.io/digital-castle/posts/welcome/."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\nCitationBibTeX citation:@online{malloc2024,\n  author = {Malloc, Harlow},\n  title = {Post {With} {Code}},\n  date = {2024-12-06},\n  url = {https://utkuturk.github.io/digital-castle/posts/post-with-code/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” December 6, 2024.\nhttps://utkuturk.github.io/digital-castle/posts/post-with-code/."
+    "objectID": "posts/advent/2024.html#part-1",
+    "href": "posts/advent/2024.html#part-1",
+    "title": "My 2024 Solutions",
+    "section": "Part 1",
+    "text": "Part 1\n\ndf &lt;- read.table(\"2024/01/input\", sep = \"\")\nv1 &lt;- df$V1 |&gt; sort()\nv2 &lt;- df$V2 |&gt; sort()\ndiff &lt;- abs(v1-v2)\nsum(diff)\n\n[1] 2344935"
+  },
+  {
+    "objectID": "posts/advent/2024.html#part-2",
+    "href": "posts/advent/2024.html#part-2",
+    "title": "My 2024 Solutions",
+    "section": "Part 2",
+    "text": "Part 2\n\ndf &lt;- read.table(\"2024/01/input\", sep = \"\")\n\nsimilarity_score &lt;- sum(sapply(df$V1, function(x) x * sum(df$V2 == x)))"
+  },
+  {
+    "objectID": "posts/advent/2024.html#part-1-1",
+    "href": "posts/advent/2024.html#part-1-1",
+    "title": "My 2024 Solutions",
+    "section": "Part 1",
+    "text": "Part 1\n\nread_data &lt;- function(path) {\n  readLines(path) |&gt;\n    strsplit(\" \") |&gt;\n    lapply(as.numeric) |&gt;\n    {\n      \\(rows) {\n        max_length &lt;- max(sapply(rows, length))\n        lapply(rows, \\(x) c(x, rep(NA, max_length - length(x))))\n      }\n    }() |&gt;\n    do.call(what = rbind) |&gt;\n    as.data.frame()\n}\n\n\nsafe &lt;- function(row) { # to be used with apply functions/iterate over rows\n  row &lt;- row[!is.na(row)]\n  increasing &lt;- all(diff(row) &gt; 0)\n  decreasing &lt;- all(diff(row) &lt; 0)\n  difference &lt;- all(abs(diff(row)) &gt;= 1 & abs(diff(row)) &lt;= 3)\n  (increasing || decreasing) && difference\n}\n\ndf &lt;- read_data(\"2024/02/input\")\ndf$safe &lt;- apply(df, 1, safe)\nsum(df$safe)\n\n[1] 624"
+  },
+  {
+    "objectID": "posts/advent/2024.html#part-2-1",
+    "href": "posts/advent/2024.html#part-2-1",
+    "title": "My 2024 Solutions",
+    "section": "Part 2",
+    "text": "Part 2\n\nread_data &lt;- function(path) {\n  readLines(path) |&gt;\n    strsplit(\" \") |&gt;\n    lapply(as.numeric) |&gt;\n    {\n      \\(rows) {\n        max_length &lt;- max(sapply(rows, length))\n        lapply(rows, \\(x) c(x, rep(NA, max_length - length(x))))\n      }\n    }() |&gt;\n    do.call(what = rbind) |&gt;\n    as.data.frame()\n}\n\nsafe &lt;- function(row) { # to be used with apply functions/iterate over rows\n  row &lt;- row[!is.na(row)]\n  increasing &lt;- all(diff(row) &gt; 0)\n  decreasing &lt;- all(diff(row) &lt; 0)\n  difference &lt;- all(abs(diff(row)) &gt;= 1 & abs(diff(row)) &lt;= 3)\n  (increasing || decreasing) && difference\n}\n\n\nprocess_row &lt;- function(row) {\n  original_row &lt;- row\n  indices_to_check &lt;- seq_along(row)\n  tried_indices &lt;- integer(0)\n\n  if (safe(row)) {return(TRUE)}\n\n  while (length(indices_to_check) &gt; 0) {\n    remove_index &lt;- sample(indices_to_check, 1)\n\n    row_with_na &lt;- row\n    row_with_na[remove_index] &lt;- NA\n\n    if (safe(row_with_na)) { return(TRUE) }\n\n    tried_indices &lt;- c(tried_indices, remove_index)\n    indices_to_check &lt;- setdiff(seq_along(row), tried_indices)\n  }\n  return(FALSE)\n}\n\ncheck_safety &lt;- function(df) {\n  df$safe &lt;- apply(df, 1, process_row)\n  return(df)\n}\n\ndf &lt;- read_data(\"2024/02/input\")\n# df$safe &lt;- apply(df, 1, safe)\ndf &lt;- check_safety(df)\nsum(df$safe)\n\n[1] 658"
   }
 ]

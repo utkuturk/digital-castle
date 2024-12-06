@@ -87,6 +87,655 @@ O’Malley, Tristan. 2024. <span>“Welcome To My Blog.”</span> December 3,
   <pubDate>Tue, 03 Dec 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>My 2024 Solutions</title>
+  <dc:creator>Utku Turk</dc:creator>
+  <link>https://utkuturk.github.io/digital-castle/posts/advent/2024.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="cell">
+<style type="text/css">
+.panel-tab {
+  flex: 1 0 20%;
+  text-align: center;
+}
+</style>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<style>#panelset_day-1 {color: #D63131 !important;}
+#panelset_day-2 {color: #D63131 !important;}
+#panelset_day-3 {color: #D63131 !important;}
+#panelset_day-4 {color: #D63131 !important;}
+#panelset_day-5 {color: #D63131 !important;}
+#panelset_day-6 {color: #D63131 !important;}
+#panelset_day-7 {color: #D63131 !important;}
+#panelset_day-8 {color: #D63131 !important;}
+#panelset_day-9 {color: #D63131 !important;}
+#panelset_day-10 {color: #D63131 !important;}
+#panelset_day-11 {color: #D63131 !important;}
+#panelset_day-12 {color: #D63131 !important;}
+#panelset_day-13 {color: #D63131 !important;}
+#panelset_day-14 {color: #D63131 !important;}
+#panelset_day-15 {color: #D63131 !important;}
+#panelset_day-16 {color: #D63131 !important;}
+#panelset_day-17 {color: #D63131 !important;}
+#panelset_day-18 {color: #D63131 !important;}
+#panelset_day-19 {color: #D63131 !important;}
+#panelset_day-20 {color: #D63131 !important;}
+#panelset_day-21 {color: #D63131 !important;}
+#panelset_day-22 {color: #D63131 !important;}
+#panelset_day-23 {color: #D63131 !important;}
+#panelset_day-24 {color: #D63131 !important;}
+#panelset_day-25 {color: #D63131 !important;}</style>
+</div>
+</div>
+<div class="panelset">
+<section id="day-1" class="level1 panel-name panel">
+<h1 class="panel-name">Day 1</h1>
+<section id="part-1" class="level2">
+<h2 class="anchored" data-anchor-id="part-1">Part 1</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.table</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2024/01/input"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sep =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>)</span>
+<span id="cb1-2">v1 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>V1 <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sort</span>()</span>
+<span id="cb1-3">v2 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>V2 <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sort</span>()</span>
+<span id="cb1-4">diff <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">abs</span>(v1<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>v2)</span>
+<span id="cb1-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sum</span>(diff)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2344935</code></pre>
+</div>
+</div>
+</section>
+<section id="part-2" class="level2">
+<h2 class="anchored" data-anchor-id="part-2">Part 2</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.table</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2024/01/input"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sep =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>)</span>
+<span id="cb3-2"></span>
+<span id="cb3-3">similarity_score <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sum</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sapply</span>(df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>V1, <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(x) x <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sum</span>(df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>V2 <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> x)))</span></code></pre></div>
+</div>
+</section>
+</section>
+<section id="day-2" class="level1 panel-name panel">
+<h1 class="panel-name">Day 2</h1>
+<section id="part-1-1" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-1">Part 1</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">read_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(path) {</span>
+<span id="cb4-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readLines</span>(path) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb4-3">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">strsplit</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">" "</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb4-4">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lapply</span>(as.numeric) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb4-5">    {</span>
+<span id="cb4-6">      \(rows) {</span>
+<span id="cb4-7">        max_length <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">max</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sapply</span>(rows, length))</span>
+<span id="cb4-8">        <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lapply</span>(rows, \(x) <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(x, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rep</span>(<span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span>, max_length <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(x))))</span>
+<span id="cb4-9">      }</span>
+<span id="cb4-10">    }() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb4-11">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">do.call</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">what =</span> rbind) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb4-12">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.data.frame</span>()</span>
+<span id="cb4-13">}</span>
+<span id="cb4-14"></span>
+<span id="cb4-15"></span>
+<span id="cb4-16">safe <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(row) { <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># to be used with apply functions/iterate over rows</span></span>
+<span id="cb4-17">  row <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> row[<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">is.na</span>(row)]</span>
+<span id="cb4-18">  increasing <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb4-19">  decreasing <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb4-20">  difference <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">abs</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">abs</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)</span>
+<span id="cb4-21">  (increasing <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">||</span> decreasing) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;&amp;</span> difference</span>
+<span id="cb4-22">}</span>
+<span id="cb4-23"></span>
+<span id="cb4-24">df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read_data</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2024/02/input"</span>)</span>
+<span id="cb4-25">df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>safe <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apply</span>(df, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, safe)</span>
+<span id="cb4-26"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sum</span>(df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>safe)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 624</code></pre>
+</div>
+</div>
+</section>
+<section id="part-2-1" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-1">Part 2</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">read_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(path) {</span>
+<span id="cb6-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readLines</span>(path) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb6-3">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">strsplit</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">" "</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb6-4">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lapply</span>(as.numeric) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb6-5">    {</span>
+<span id="cb6-6">      \(rows) {</span>
+<span id="cb6-7">        max_length <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">max</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sapply</span>(rows, length))</span>
+<span id="cb6-8">        <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lapply</span>(rows, \(x) <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(x, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rep</span>(<span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span>, max_length <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(x))))</span>
+<span id="cb6-9">      }</span>
+<span id="cb6-10">    }() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb6-11">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">do.call</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">what =</span> rbind) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb6-12">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.data.frame</span>()</span>
+<span id="cb6-13">}</span>
+<span id="cb6-14"></span>
+<span id="cb6-15">safe <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(row) { <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># to be used with apply functions/iterate over rows</span></span>
+<span id="cb6-16">  row <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> row[<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">is.na</span>(row)]</span>
+<span id="cb6-17">  increasing <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb6-18">  decreasing <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb6-19">  difference <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">abs</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">abs</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diff</span>(row)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)</span>
+<span id="cb6-20">  (increasing <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">||</span> decreasing) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;&amp;</span> difference</span>
+<span id="cb6-21">}</span>
+<span id="cb6-22"></span>
+<span id="cb6-23"></span>
+<span id="cb6-24">process_row <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(row) {</span>
+<span id="cb6-25">  original_row <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> row</span>
+<span id="cb6-26">  indices_to_check <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq_along</span>(row)</span>
+<span id="cb6-27">  tried_indices <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">integer</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb6-28"></span>
+<span id="cb6-29">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">safe</span>(row)) {<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">return</span>(<span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)}</span>
+<span id="cb6-30"></span>
+<span id="cb6-31">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">while</span> (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">length</span>(indices_to_check) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>) {</span>
+<span id="cb6-32">    remove_index <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sample</span>(indices_to_check, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb6-33"></span>
+<span id="cb6-34">    row_with_na <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> row</span>
+<span id="cb6-35">    row_with_na[remove_index] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span></span>
+<span id="cb6-36"></span>
+<span id="cb6-37">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">safe</span>(row_with_na)) { <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">return</span>(<span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>) }</span>
+<span id="cb6-38"></span>
+<span id="cb6-39">    tried_indices <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(tried_indices, remove_index)</span>
+<span id="cb6-40">    indices_to_check <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">setdiff</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq_along</span>(row), tried_indices)</span>
+<span id="cb6-41">  }</span>
+<span id="cb6-42">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">return</span>(<span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>)</span>
+<span id="cb6-43">}</span>
+<span id="cb6-44"></span>
+<span id="cb6-45">check_safety <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(df) {</span>
+<span id="cb6-46">  df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>safe <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">apply</span>(df, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, process_row)</span>
+<span id="cb6-47">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">return</span>(df)</span>
+<span id="cb6-48">}</span>
+<span id="cb6-49"></span>
+<span id="cb6-50">df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read_data</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2024/02/input"</span>)</span>
+<span id="cb6-51"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># df$safe &lt;- apply(df, 1, safe)</span></span>
+<span id="cb6-52">df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">check_safety</span>(df)</span>
+<span id="cb6-53"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sum</span>(df<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>safe)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 658</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="day-3" class="level1 panel-name panel">
+<h1 class="panel-name">Day 3</h1>
+</section>
+<section id="day-4" class="level1 panel-name panel">
+<h1 class="panel-name">Day 4</h1>
+</section>
+<section id="day-5" class="level1 panel-name panel">
+<h1 class="panel-name">Day 5</h1>
+</section>
+<section id="day-6" class="level1 panel-name panel">
+<h1 class="panel-name">Day 6</h1>
+</section>
+<section id="day-7" class="level1 panel-name panel">
+<h1 class="panel-name">Day 7</h1>
+</section>
+<section id="day-8" class="level1 panel-name panel">
+<h1 class="panel-name">Day 8</h1>
+</section>
+<section id="day-9" class="level1 panel-name panel">
+<h1 class="panel-name">Day 9</h1>
+</section>
+<section id="day-10" class="level1 panel-name panel">
+<h1 class="panel-name">Day 10</h1>
+</section>
+<section id="day-11" class="level1 panel-name panel">
+<h1 class="panel-name">Day 11</h1>
+</section>
+<section id="day-12" class="level1 panel-name panel">
+<h1 class="panel-name">Day 12</h1>
+</section>
+<section id="day-13" class="level1 panel-name panel">
+<h1 class="panel-name">Day 13</h1>
+</section>
+<section id="day-14" class="level1 panel-name panel">
+<h1 class="panel-name">Day 14</h1>
+</section>
+<section id="day-15" class="level1 panel-name panel">
+<h1 class="panel-name">Day 15</h1>
+</section>
+<section id="day-16" class="level1 panel-name panel">
+<h1 class="panel-name">Day 16</h1>
+</section>
+<section id="day-17" class="level1 panel-name panel">
+<h1 class="panel-name">Day 17</h1>
+</section>
+<section id="day-18" class="level1 panel-name panel">
+<h1 class="panel-name">Day 18</h1>
+</section>
+<section id="day-19" class="level1 panel-name panel">
+<h1 class="panel-name">Day 19</h1>
+</section>
+<section id="day-20" class="level1 panel-name panel">
+<h1 class="panel-name">Day 20</h1>
+</section>
+<section id="day-21" class="level1 panel-name panel">
+<h1 class="panel-name">Day 21</h1>
+</section>
+<section id="day-22" class="level1 panel-name panel">
+<h1 class="panel-name">Day 22</h1>
+</section>
+<section id="day-23" class="level1 panel-name panel">
+<h1 class="panel-name">Day 23</h1>
+</section>
+<section id="day-24" class="level1 panel-name panel">
+<h1 class="panel-name">Day 24</h1>
+</section>
+<section id="day-25" class="level1 panel-name panel">
+<h1 class="panel-name">Day 25</h1>
+</section>
+</div>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{turk,
+  author = {Turk, Utku},
+  title = {My 2024 {Solutions}},
+  url = {https://utkuturk.github.io/digital-castle/posts/advent/2024.html},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-turk" class="csl-entry quarto-appendix-citeas">
+Turk, Utku. n.d. <span>“My 2024 Solutions.”</span> <a href="https://utkuturk.github.io/digital-castle/posts/advent/2024.html">https://utkuturk.github.io/digital-castle/posts/advent/2024.html</a>.
+</div></div></section></div> ]]></description>
+  <guid>https://utkuturk.github.io/digital-castle/posts/advent/2024.html</guid>
+  <pubDate>Fri, 06 Dec 2024 17:26:34 GMT</pubDate>
+</item>
+<item>
   <title>Guidelines to Run Montreal Forced Aligner for a PCIbex Experiment</title>
   <dc:creator>Utku Turk</dc:creator>
   <link>https://utkuturk.github.io/digital-castle/posts/mfa/</link>
@@ -5346,7 +5995,7 @@ Turk, Utku. n.d. <span>“Guidelines to Run Montreal Forced Aligner for a
 PCIbex Experiment.”</span> <a href="https://utkuturk.github.io/digital-castle/posts/mfa/">https://utkuturk.github.io/digital-castle/posts/mfa/</a>.
 </div></div></section></div> ]]></description>
   <guid>https://utkuturk.github.io/digital-castle/posts/mfa/</guid>
-  <pubDate>Fri, 06 Dec 2024 17:22:14 GMT</pubDate>
+  <pubDate>Fri, 06 Dec 2024 17:26:34 GMT</pubDate>
 </item>
 </channel>
 </rss>
