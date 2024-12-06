@@ -1,0 +1,31 @@
+
+# options specified here will apply to all posts in this folder
+
+# default post metadata
+author: "Utku Turk"
+# image: featured.png
+card-style: "summary"
+date-modified: last-modified
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+citation: true
+
+# blog page layout options
+format:
+  html:
+    toc: true
+title-block-banner: true
+
+# comments
+comments:
+  giscus:
+    theme: light
+    repo: utkuturk/digital-castle
+    repo-id: R_kgDONZ5-HA
+    category: General
+    category-id: DIC_kwDONZ5-HM4Ck-pE
+    mapping: pathname
+    reactions-enabled: true
+    input-position: top

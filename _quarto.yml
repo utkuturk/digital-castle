@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+  - "*.qmd"
+  - "!posts/drafts/**/*.qmd"
+  # resources:
+  #   - "_redirects"
+
+website:
+  title: "digital-castle"
+  site-url: https://blog.utkuturk.com
+  open-graph: true
+  twitter-card:
+    creator: "@utkuturkling"
+  navbar:
+    right:
+      - text: Back to Home
+        href: https://utkuturk.com
+      # - blog.qmd
+      # - sidebar:gallery
+      # - research.qmd
+      # - text: Talks
+      #   href: https://talks.cynthiahqy.com
+      # - CV.qmd
+      # - icon: github
+      #   href: https://github.com/cynthiahqy
+      # - icon: linkedin
+      #   href: https://www.linkedin.com/in/cynthiahqy/
+      # - icon: twitter
+      #   href: https://twitter.com/cynthiahqy
+      # - icon: envelope-at-fill
+      #   href: mailto:cynthia.huang@monash.edu
+      - icon: rss
+        href: blog.xml
+        
+  repo-url: https://github.com/utkuturk/digital-castle
+  repo-actions: [edit, issue]
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    from: markdown+emoji
+
+execute:
+  freeze: true
+  
+
+
+  # 
+  # 
+  # sidebar:
+  #   - id: gallery
+  #     title: "Gallery"
+  #     contents:
+  #       - gallery.qmd
+  #       - gallery/sketchbook/index.qmd
+  #       - gallery/podcasts.qmd
