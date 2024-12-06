@@ -1,1 +1,1 @@
-Sitemap: https://blog.utkuturk.com/sitemap.xml
+Sitemap: https://utkuturk.github.io/digital-castle/sitemap.xml
