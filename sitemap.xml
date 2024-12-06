@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://utkuturk.github.io/digital-castle/posts/post-with-code/index.html</loc>
-    <lastmod>2024-12-06T15:39:13.968Z</lastmod>
+    <loc>https://utkuturk.github.io/digital-castle/posts/mfa/index.html</loc>
+    <lastmod>2024-12-06T17:19:25.413Z</lastmod>
   </url>
   <url>
-    <loc>https://utkuturk.github.io/digital-castle/index.html</loc>
-    <lastmod>2024-12-06T15:39:13.967Z</lastmod>
+    <loc>https://utkuturk.github.io/digital-castle/posts/welcome/index.html</loc>
+    <lastmod>2024-12-06T15:39:13.969Z</lastmod>
   </url>
   <url>
     <loc>https://utkuturk.github.io/digital-castle/about.html</loc>
     <lastmod>2024-12-06T15:39:13.966Z</lastmod>
   </url>
   <url>
-    <loc>https://utkuturk.github.io/digital-castle/posts/welcome/index.html</loc>
-    <lastmod>2024-12-06T15:39:13.969Z</lastmod>
+    <loc>https://utkuturk.github.io/digital-castle/index.html</loc>
+    <lastmod>2024-12-06T15:39:13.967Z</lastmod>
+  </url>
+  <url>
+    <loc>https://utkuturk.github.io/digital-castle/posts/post-with-code/index.html</loc>
+    <lastmod>2024-12-06T15:39:13.968Z</lastmod>
   </url>
 </urlset>
