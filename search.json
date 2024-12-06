@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\nCitationBibTeX citation:@online{malloc2024,\n  author = {Malloc, Harlow},\n  title = {Post {With} {Code}},\n  date = {2024-12-06},\n  url = {https://blog.utkuturk.com/posts/post-with-code/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” December 6, 2024.\nhttps://blog.utkuturk.com/posts/post-with-code/."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Digital Castle",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 6, 2024\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 3, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationBibTeX citation:@online{o'malley2024,\n  author = {O’Malley, Tristan},\n  title = {Welcome {To} {My} {Blog}},\n  date = {2024-12-03},\n  url = {https://blog.utkuturk.com/posts/welcome/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” December 3,\n2024. https://blog.utkuturk.com/posts/welcome/."
+  }
+]
